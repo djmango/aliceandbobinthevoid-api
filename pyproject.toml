@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aliceandbobinthevoid-api"
+version = "0.1.0"
+description = ""
+authors = ["Sulaiman Ghori <sulaiman.ghori@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-cpp-python = {version = "^0.2.18", extras = ["server"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
